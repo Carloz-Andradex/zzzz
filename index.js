@@ -7,7 +7,7 @@ const yesBtn = document.querySelector('#yesBtn');
 
 // Comportamiento del botón "Sí"
 yesBtn.addEventListener('click', function () {
-    alert('haber si esto te alegra un poco'); // Puedes mandar los mensajes que quieras
+    alert('De nada'); // Puedes mandar los mensajes que quieras
     location.href = 'https://music.youtube.com/watch?v=yMV8GemAhuA&si=ZGn9G-dfbTl2fV_w'; // Cambiar el URL en YouTube de la canción que quieras
 });
 
